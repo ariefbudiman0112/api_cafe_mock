@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "server": "json-server --watch data.json --port 3000",
+    "server": "json-server --watch data.json --port 3000 --host rendering-tarot-untamed.ngrok-free.dev",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
