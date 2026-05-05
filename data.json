@@ -1,0 +1,247 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "user_no": "U001",
+      "name": "Admin Joe",
+      "email": "admin_joe@example.com",
+      "password": "admin123",
+      "role": "admin",
+      "isActive": false,
+      "createdAt": "2026-01-01T08:00:00Z",
+      "createdBy": "SYSTEM",
+      "updatedAt": "2026-01-01T08:00:00Z",
+      "updatedBy": "SYSTEM"
+    },
+    {
+      "id": "2",
+      "user_no": "U002",
+      "name": "Manager Jane",
+      "email": "manager_jane@example.com",
+      "password": "manager123",
+      "role": "manager",
+      "isActive": true,
+      "createdAt": "2026-01-01T08:00:00Z",
+      "createdBy": "SYSTEM",
+      "updatedAt": "2026-01-01T08:00:00Z",
+      "updatedBy": "SYSTEM"
+    },
+    {
+      "id": "3",
+      "user_no": "U003",
+      "name": "User Alicessss",
+      "email": "user_alice@gmail.com",
+      "password": "user123",
+      "role": "user",
+      "isActive": false,
+      "createdAt": "2026-01-01T08:00:00Z",
+      "createdBy": "SYSTEM",
+      "updatedAt": "2026-01-01T08:00:00Z",
+      "updatedBy": "SYSTEM"
+    }
+  ],
+  "categories": [
+    {
+      "category_id": "CAT01",
+      "name": "Coffee",
+      "createdAt": "2026-01-01T08:00:00Z",
+      "createdBy": "U001",
+      "updatedAt": "2026-01-01T08:00:00Z",
+      "updatedBy": "U001",
+      "id": "TMdtyRl6S6I"
+    }
+  ],
+  "products": [
+    {
+      "name": "Flat White",
+      "category": "Single Origin",
+      "price": 10,
+      "popularity": 50,
+      "image": "https://picsum.photos/400/400?random=2",
+      "description": "test 1",
+      "isAvailable": true,
+      "id": "KcAfNFHXcoQ"
+    },
+    {
+      "name": "common-css",
+      "category": "Espresso Blend",
+      "price": 20,
+      "popularity": 50,
+      "image": "https://picsum.photos/400/400?random=2",
+      "description": "test 2",
+      "isAvailable": true,
+      "id": "98fqgOpXBxY"
+    },
+    {
+      "name": "Flat White",
+      "category": "Signature Milk",
+      "price": 20,
+      "popularity": 50,
+      "image": "https://picsum.photos/400/400?random=14",
+      "description": "test 3",
+      "isAvailable": true,
+      "id": "rxH8g4kmwV0"
+    }
+  ],
+  "cust_favorites": [
+    {
+      "id": "I6bxrj1_WMo",
+      "user_id": "1",
+      "product_id": "98fqgOpXBxY",
+      "name": "common-css",
+      "price": 20,
+      "image": "https://picsum.photos/400/400?random=2",
+      "category": "Espresso Blend"
+    }
+  ],
+  "ingredients": [
+    {
+      "ingredient_id": "ING01",
+      "name": "Whole Milk",
+      "current_stock": 5000,
+      "unit": "ml",
+      "par_level": 2000,
+      "createdAt": "2026-01-01T08:00:00Z",
+      "createdBy": "U001",
+      "updatedAt": "2026-04-27T10:15:00Z",
+      "updatedBy": "U001",
+      "id": "T8xkAphA_wg"
+    }
+  ],
+  "product_cart": [],
+  "orders": [
+    {
+      "order_id": "ORD-1777892383239",
+      "timestamp": "2026-05-04T10:59:43.239Z",
+      "expiry_time": "2026-05-04T11:59:43.239Z",
+      "total_price": 33,
+      "payment_method": "Cash",
+      "order_type": "Dine-in",
+      "status": "Cancelled",
+      "id": "5sRalGDM-VI"
+    },
+    {
+      "order_id": "ORD-1777925753954",
+      "timestamp": "2026-05-04T20:15:53.954Z",
+      "expiry_time": "2026-05-04T21:15:53.954Z",
+      "total_price": 55.00000000000001,
+      "payment_method": "Card",
+      "order_type": "Dine-in",
+      "status": "Pending",
+      "id": "MeOtXqfCYzY"
+    },
+    {
+      "order_id": "ORD-1777926677992",
+      "timestamp": "2026-05-04T20:31:17.992Z",
+      "expiry_time": "2026-05-04T21:31:17.992Z",
+      "total_price": 66,
+      "payment_method": "Card",
+      "order_type": "Dine-in",
+      "status": "Cancelled",
+      "id": "bs0PS1KT7eQ"
+    },
+    {
+      "order_id": "ORD-1777926726742",
+      "timestamp": "2026-05-04T20:32:06.742Z",
+      "expiry_time": "2026-05-04T21:32:06.742Z",
+      "total_price": 99.00000000000001,
+      "payment_method": "Card",
+      "order_type": "Takeaway",
+      "status": "Cancelled",
+      "id": "dcGSG0I9bac"
+    }
+  ],
+  "order_items": [
+    {
+      "order_id": "ORD-1777892383239",
+      "product_id": "98fqgOpXBxY",
+      "name": "common-css",
+      "quantity": 1,
+      "subtotal": 20,
+      "id": "qJoRIDKthb4"
+    },
+    {
+      "order_id": "ORD-1777892383239",
+      "product_id": "KcAfNFHXcoQ",
+      "name": "Flat White",
+      "quantity": 1,
+      "subtotal": 10,
+      "id": "hJRp2N0XmR8"
+    },
+    {
+      "order_id": "ORD-1777925753954",
+      "product_id": "KcAfNFHXcoQ",
+      "name": "Flat White",
+      "quantity": 1,
+      "subtotal": 10,
+      "id": "sJOtxEuKetw"
+    },
+    {
+      "order_id": "ORD-1777925753954",
+      "product_id": "98fqgOpXBxY",
+      "name": "common-css",
+      "quantity": 1,
+      "subtotal": 20,
+      "id": "EUgaLUeJDjU"
+    },
+    {
+      "order_id": "ORD-1777925753954",
+      "product_id": "rxH8g4kmwV0",
+      "name": "Flat White",
+      "quantity": 1,
+      "subtotal": 20,
+      "id": "h7zIur7RcwQ"
+    },
+    {
+      "order_id": "ORD-1777926677992",
+      "product_id": "98fqgOpXBxY",
+      "name": "common-css",
+      "quantity": 3,
+      "subtotal": 60,
+      "id": "KsonmIQfg64"
+    },
+    {
+      "order_id": "ORD-1777926726742",
+      "product_id": "KcAfNFHXcoQ",
+      "name": "Flat White",
+      "quantity": 1,
+      "subtotal": 10,
+      "id": "RSH9mArEvjU"
+    },
+    {
+      "order_id": "ORD-1777926726742",
+      "product_id": "rxH8g4kmwV0",
+      "name": "Flat White",
+      "quantity": 4,
+      "subtotal": 80,
+      "id": "muRrvvtj-LI"
+    }
+  ],
+  "suppliers": [
+    {
+      "supplier_id": "S001",
+      "company_name": "Dairy Fresh Ltd",
+      "contact_person": "Sarah Milk",
+      "email_phone": "sarah@dairyfresh.com",
+      "createdAt": "2026-01-01T08:00:00Z",
+      "createdBy": "U001",
+      "updatedAt": "2026-01-01T08:00:00Z",
+      "updatedBy": "U001",
+      "id": "KN7pV5dHZP8"
+    }
+  ],
+  "purchase_orders": [
+    {
+      "po_id": "PO-5001",
+      "supplier_id": "S001",
+      "status": "Received",
+      "total_cost": 150,
+      "createdAt": "2026-04-20T14:00:00Z",
+      "createdBy": "U001",
+      "updatedAt": "2026-04-21T09:00:00Z",
+      "updatedBy": "U001",
+      "id": "lF-vrXjasws"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
