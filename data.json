@@ -108,13 +108,40 @@
       "id": "T8xkAphA_wg"
     }
   ],
-  "product_cart": [],
-  "orders": [
-    
+  "product_cart": [
+    {
+      "user_id": "1",
+      "product_id": "KcAfNFHXcoQ",
+      "name": "Flat White",
+      "price": 10,
+      "image": "https://picsum.photos/400/400?random=2",
+      "qty": 1,
+      "added_at": "2026-05-06T08:02:59.435Z",
+      "id": "dfoQsgaQ1y0"
+    },
+    {
+      "user_id": "1",
+      "product_id": "98fqgOpXBxY",
+      "name": "common-css",
+      "price": 20,
+      "image": "https://picsum.photos/400/400?random=2",
+      "qty": 5,
+      "added_at": "2026-05-06T08:03:00.602Z",
+      "id": "VgqV19htcvU"
+    },
+    {
+      "user_id": "1",
+      "product_id": "rxH8g4kmwV0",
+      "name": "Flat White",
+      "price": 20,
+      "image": "https://picsum.photos/400/400?random=14",
+      "qty": 2,
+      "added_at": "2026-05-06T08:03:02.083Z",
+      "id": "tlEinz12Pg4"
+    }
   ],
-  "order_items": [
-    
-  ],
+  "orders": [],
+  "order_items": [],
   "suppliers": [
     {
       "supplier_id": "S001",
@@ -139,6 +166,28 @@
       "updatedAt": "2026-04-21T09:00:00Z",
       "updatedBy": "U001",
       "id": "lF-vrXjasws"
+    }
+  ],
+  "promotions": [
+    {
+      "tag": "NEW LIMITED",
+      "title": "Crazy Discount",
+      "description": "amazing coffee",
+      "image_url": "https://picsum.photos/400/400?random=2",
+      "accent_color": "bg-rose-600",
+      "is_active": true,
+      "expiry_date": "2026-05-31",
+      "id": "KA9osXbPMN0"
+    },
+    {
+      "tag": "test",
+      "title": "test promo",
+      "description": "crazy",
+      "image_url": "https://picsum.photos/400/400?random=2",
+      "accent_color": "bg-emerald-700",
+      "is_active": true,
+      "expiry_date": "2026-05-28",
+      "id": "l6563y8RNFg"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"
