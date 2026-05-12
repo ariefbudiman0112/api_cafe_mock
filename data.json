@@ -38,6 +38,14 @@
       "createdBy": "SYSTEM",
       "updatedAt": "2026-01-01T08:00:00Z",
       "updatedBy": "SYSTEM"
+    },
+    {
+      "name": "Anna Firmansyah",
+      "email": "annafirmansyah25@gmail.com",
+      "password": "admin123",
+      "role": "admin",
+      "isActive": true,
+      "id": "xKwQLoRpdXE"
     }
   ],
   "categories": [
@@ -73,7 +81,7 @@
       "id": "98fqgOpXBxY"
     },
     {
-      "name": "Flat White",
+      "name": "Black coffee",
       "category": "Signature Milk",
       "price": 20,
       "popularity": 50,
@@ -83,89 +91,172 @@
       "id": "rxH8g4kmwV0"
     }
   ],
-  "cust_favorites": [
-    {
-      "id": "I6bxrj1_WMo",
-      "user_id": "1",
-      "product_id": "98fqgOpXBxY",
-      "name": "common-css",
-      "price": 20,
-      "image": "https://picsum.photos/400/400?random=2",
-      "category": "Espresso Blend"
-    }
-  ],
-  "ingredients": [
-    {
-      "ingredient_id": "ING01",
-      "name": "Whole Milk",
-      "current_stock": 5000,
-      "unit": "ml",
-      "par_level": 2000,
-      "createdAt": "2026-01-01T08:00:00Z",
-      "createdBy": "U001",
-      "updatedAt": "2026-04-27T10:15:00Z",
-      "updatedBy": "U001",
-      "id": "T8xkAphA_wg"
-    }
-  ],
+  "cust_favorites": [],
   "product_cart": [
     {
-      "user_id": "1",
+      "user_id": 1,
       "product_id": "KcAfNFHXcoQ",
-      "name": "Flat White",
-      "price": 10,
-      "image": "https://picsum.photos/400/400?random=2",
       "qty": 1,
-      "added_at": "2026-05-06T08:02:59.435Z",
-      "id": "dfoQsgaQ1y0"
+      "customizations": {
+        "size": "Medium (Grande)",
+        "temp": "Hot",
+        "sugar": "Normal Sugar",
+        "milk": "Normal Milk",
+        "syrups": [],
+        "sweeteners": [],
+        "caffeine": "Regular",
+        "extraShots": 0,
+        "note": ""
+      },
+      "added_at": "2026-05-12T07:20:08.014Z",
+      "id": "BDaKCy4vmWQ"
+    }
+  ],
+  "orders": [
+    {
+      "user_id": 1,
+      "order_no": "ORD-1778020000000-10",
+      "total": 11,
+      "paymentMethod": "Card",
+      "orderType": "Takeaway",
+      "status": "Paid",
+      "createdAt": "2026-05-05T08:30:00.000Z",
+      "expiry_time": "2026-05-05T08:45:00.000Z",
+      "id": "ord_001"
     },
     {
-      "user_id": "1",
+      "user_id": 1,
+      "order_no": "ORD-1778106400000-20",
+      "total": 33,
+      "paymentMethod": "Card",
+      "orderType": "Dine-in",
+      "status": "Paid",
+      "createdAt": "2026-05-06T12:15:00.000Z",
+      "expiry_time": "2026-05-06T12:30:00.000Z",
+      "id": "ord_002"
+    },
+    {
+      "user_id": 1,
+      "order_no": "ORD-1778279200000-30",
+      "total": 11,
+      "paymentMethod": "Cash",
+      "orderType": "Takeaway",
+      "status": "Cancelled",
+      "createdAt": "2026-05-08T15:45:00.000Z",
+      "expiry_time": "2026-05-08T16:00:00.000Z",
+      "id": "ord_003"
+    },
+    {
+      "user_id": 1,
+      "order_no": "ORD-1778365600000-40",
+      "total": 22,
+      "paymentMethod": "Card",
+      "orderType": "Dine-in",
+      "status": "Paid",
+      "createdAt": "2026-05-09T09:00:00.000Z",
+      "expiry_time": "2026-05-09T09:15:00.000Z",
+      "id": "ord_004"
+    },
+    {
+      "user_id": 1,
+      "order_no": "ORD-1778452000000-50",
+      "total": 44,
+      "paymentMethod": "Cash",
+      "orderType": "Dine-in",
+      "status": "Paid",
+      "createdAt": "2026-05-10T14:20:00.000Z",
+      "expiry_time": "2026-05-10T14:35:00.000Z",
+      "id": "ord_005"
+    }
+  ],
+  "order_items": [
+    {
+      "order_no": "ORD-1778020000000-10",
+      "product_id": "KcAfNFHXcoQ",
+      "qty": 1,
+      "price": 10,
+      "subtotal": 10,
+      "customizations": {
+        "size": "Small",
+        "temp": "Hot",
+        "milk": "Oat Milk",
+        "syrups": []
+      },
+      "id": "oi_001"
+    },
+    {
+      "order_no": "ORD-1778106400000-20",
       "product_id": "98fqgOpXBxY",
-      "name": "common-css",
+      "qty": 1,
       "price": 20,
-      "image": "https://picsum.photos/400/400?random=2",
-      "qty": 5,
-      "added_at": "2026-05-06T08:03:00.602Z",
-      "id": "VgqV19htcvU"
+      "subtotal": 20,
+      "customizations": {
+        "size": "Large",
+        "temp": "Iced",
+        "milk": "Normal Milk",
+        "syrups": [
+          "Caramel"
+        ]
+      },
+      "id": "oi_002"
     },
     {
-      "user_id": "1",
+      "order_no": "ORD-1778106400000-20",
+      "product_id": "KcAfNFHXcoQ",
+      "qty": 1,
+      "price": 10,
+      "subtotal": 10,
+      "customizations": {
+        "size": "Medium",
+        "temp": "Hot",
+        "milk": "Normal Milk",
+        "syrups": []
+      },
+      "id": "oi_003"
+    },
+    {
+      "order_no": "ORD-1778279200000-30",
       "product_id": "rxH8g4kmwV0",
-      "name": "Flat White",
-      "price": 20,
-      "image": "https://picsum.photos/400/400?random=14",
+      "qty": 1,
+      "price": 10,
+      "subtotal": 10,
+      "customizations": {
+        "size": "Medium",
+        "temp": "Hot",
+        "milk": "Normal Milk",
+        "syrups": []
+      },
+      "id": "oi_004"
+    },
+    {
+      "order_no": "ORD-1778365600000-40",
+      "product_id": "KcAfNFHXcoQ",
       "qty": 2,
-      "added_at": "2026-05-06T08:03:02.083Z",
-      "id": "tlEinz12Pg4"
-    }
-  ],
-  "orders": [],
-  "order_items": [],
-  "suppliers": [
+      "price": 10,
+      "subtotal": 20,
+      "customizations": {
+        "size": "Medium",
+        "temp": "Hot",
+        "milk": "Oat Milk",
+        "syrups": []
+      },
+      "id": "oi_005"
+    },
     {
-      "supplier_id": "S001",
-      "company_name": "Dairy Fresh Ltd",
-      "contact_person": "Sarah Milk",
-      "email_phone": "sarah@dairyfresh.com",
-      "createdAt": "2026-01-01T08:00:00Z",
-      "createdBy": "U001",
-      "updatedAt": "2026-01-01T08:00:00Z",
-      "updatedBy": "U001",
-      "id": "KN7pV5dHZP8"
-    }
-  ],
-  "purchase_orders": [
-    {
-      "po_id": "PO-5001",
-      "supplier_id": "S001",
-      "status": "Received",
-      "total_cost": 150,
-      "createdAt": "2026-04-20T14:00:00Z",
-      "createdBy": "U001",
-      "updatedAt": "2026-04-21T09:00:00Z",
-      "updatedBy": "U001",
-      "id": "lF-vrXjasws"
+      "order_no": "ORD-1778452000000-50",
+      "product_id": "98fqgOpXBxY",
+      "qty": 2,
+      "price": 20,
+      "subtotal": 40,
+      "customizations": {
+        "size": "Large",
+        "temp": "Iced",
+        "milk": "Normal Milk",
+        "syrups": [
+          "Vanilla"
+        ]
+      },
+      "id": "oi_006"
     }
   ],
   "promotions": [
@@ -190,5 +281,6 @@
       "id": "l6563y8RNFg"
     }
   ],
+  "inventory": [],
   "$schema": "./node_modules/json-server/schema.json"
 }
