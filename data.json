@@ -15,57 +15,17 @@
       "id": "5BGBdDX78KY"
     },
     {
-      "emp_id": "eQQvAz3EzmA",
-      "name": "Anna Firmansyah",
-      "email": "annafirmansyah25@gmail.com",
-      "password": "123",
-      "role": "user",
-      "isActive": false,
-      "user_no": "U343",
-      "createdAt": "2026-05-13T22:20:11.837Z",
-      "createdBy": "SYSTEM",
-      "updatedAt": "2026-05-13T23:03:33.904Z",
-      "updatedBy": "Admin Joe",
-      "id": "fnKsyPHaYPY"
-    },
-    {
-      "name": "Sumatra Mandheling",
-      "email": "indo@mail.com",
-      "password": "123",
-      "role": "user",
-      "isActive": true,
-      "createdAt": "2026-05-14T15:51:45.518Z",
-      "user_no": "UUSR-300",
-      "createdBy": "SYSTEM",
-      "updatedAt": "2026-05-14T15:51:45.518Z",
-      "updatedBy": "SYSTEM",
-      "id": "mCWd0kuq778"
-    },
-    {
-      "name": "test",
-      "email": "tes@test.com",
+      "name": "Arief Budiman",
+      "email": "ariefbudiman0112@gmail.com",
       "password": "123",
       "role": "customer",
       "isActive": true,
-      "createdAt": "2026-05-14T15:57:54.357Z",
-      "user_no": "USR-439",
-      "createdBy": "SYSTEM",
-      "updatedAt": "2026-05-14T15:57:54.357Z",
-      "updatedBy": "SYSTEM",
-      "id": "SNRELUVDcq4"
-    },
-    {
-      "name": "asal asalan",
-      "email": "asal@mail.com",
-      "password": "123",
-      "role": "customer",
-      "isActive": true,
-      "user_no": "USR-551",
-      "createdAt": "2026-05-15T06:30:40.548Z",
-      "createdBy": "asal asalan",
-      "updatedAt": "2026-05-15T06:30:40.548Z",
-      "updatedBy": "asal asalan",
-      "id": "Hj66MtsTYo0"
+      "user_no": "USR-753",
+      "createdAt": "2026-05-17T00:22:05.526Z",
+      "createdBy": "Arief Budiman",
+      "updatedAt": "2026-05-17T00:22:05.526Z",
+      "updatedBy": "Arief Budiman",
+      "id": "aVtb_zV05Es"
     }
   ],
   "employees": [
@@ -158,9 +118,9 @@
     },
     {
       "name": "Black coffee",
-      "category": "Signature Milk",
+      "category": "Espresso Blend",
       "price": 20,
-      "popularity": 50,
+      "popularity": "80",
       "image": "https://wiratech.co.id/wp-content/uploads/2018/09/cara-membuat-kopi-enak.jpg",
       "description": "test 3",
       "isAvailable": true,
@@ -174,7 +134,8 @@
       "image": "https://blog.bookingtogo.com/wp-content/uploads/2020/11/jenis-kopi-di-Indonesia-dan-karakteristik-scaled.jpg",
       "description": "kopi mantap",
       "isAvailable": true,
-      "id": "_O26JHRKKS4"
+      "id": "_O26JHRKKS4",
+      "isChefChoice": false
     },
     {
       "name": "Kopi asik",
@@ -184,7 +145,8 @@
       "image": "https://png.pngtree.com/thumb_back/fh260/background/20230831/pngtree-a-cup-of-coffee-with-a-steaming-hot-pot-of-coffee-image_13171253.jpg",
       "description": "kopi luar biasa",
       "isAvailable": true,
-      "id": "7KPJCs6O3kA"
+      "id": "7KPJCs6O3kA",
+      "isChefChoice": false
     }
   ],
   "cust_favorites": [
@@ -197,736 +159,44 @@
   "product_cart": [],
   "orders": [
     {
-      "user_id": 1,
-      "order_no": "ORD-1775011200000-10",
-      "total": 12,
-      "paymentMethod": "Cash",
-      "orderType": "Takeaway",
-      "status": "Paid",
-      "createdAt": "2026-04-01T09:15:00.000Z",
-      "expiry_time": "2026-04-01T09:30:00.000Z",
-      "id": "ord_001"
-    },
-    {
-      "user_id": 2,
-      "order_no": "ORD-1775270400000-11",
-      "total": 45,
-      "paymentMethod": "Card",
-      "orderType": "Dine-in",
-      "status": "Paid",
-      "createdAt": "2026-04-04T13:00:00.000Z",
-      "expiry_time": "2026-04-04T13:15:00.000Z",
-      "id": "ord_002"
-    },
-    {
-      "user_id": 1,
-      "order_no": "ORD-1775702400000-12",
-      "total": 21,
-      "paymentMethod": "Card",
-      "orderType": "Takeaway",
-      "status": "Paid",
-      "createdAt": "2026-04-09T10:45:00.000Z",
-      "expiry_time": "2026-04-09T11:00:00.000Z",
-      "id": "ord_003"
-    },
-    {
-      "user_id": 3,
-      "order_no": "ORD-1776220800000-13",
-      "total": 68,
-      "paymentMethod": "Card",
-      "orderType": "Dine-in",
-      "status": "Paid",
-      "createdAt": "2026-04-15T18:30:00.000Z",
-      "expiry_time": "2026-04-15T18:45:00.000Z",
-      "id": "ord_004"
-    },
-    {
-      "user_id": 2,
-      "order_no": "ORD-1776652800000-14",
-      "total": 15,
-      "paymentMethod": "Cash",
-      "orderType": "Takeaway",
-      "status": "Paid",
-      "createdAt": "2026-04-20T08:00:00.000Z",
-      "expiry_time": "2026-04-20T08:15:00.000Z",
-      "id": "ord_005"
-    },
-    {
-      "user_id": 1,
-      "order_no": "ORD-1777084800000-15",
-      "total": 32,
-      "paymentMethod": "Cash",
-      "orderType": "Dine-in",
-      "status": "Paid",
-      "createdAt": "2026-04-25T14:20:00.000Z",
-      "expiry_time": "2026-04-25T14:35:00.000Z",
-      "id": "ord_006"
-    },
-    {
-      "user_id": 4,
-      "order_no": "ORD-1777344000000-16",
-      "total": 54,
-      "paymentMethod": "Card",
-      "orderType": "Dine-in",
-      "status": "Paid",
-      "createdAt": "2026-04-28T19:10:00.000Z",
-      "expiry_time": "2026-04-28T19:25:00.000Z",
-      "id": "ord_007"
-    },
-    {
-      "user_id": 1,
-      "order_no": "ORD-1777603200000-17",
-      "total": 11,
-      "paymentMethod": "Card",
-      "orderType": "Takeaway",
-      "status": "Paid",
-      "createdAt": "2026-05-01T08:30:00.000Z",
-      "expiry_time": "2026-05-01T08:45:00.000Z",
-      "id": "ord_008"
-    },
-    {
-      "user_id": 2,
-      "order_no": "ORD-1777948800000-18",
-      "total": 28,
-      "paymentMethod": "Cash",
-      "orderType": "Takeaway",
-      "status": "Paid",
-      "createdAt": "2026-05-05T11:00:00.000Z",
-      "expiry_time": "2026-05-05T11:15:00.000Z",
-      "id": "ord_009"
-    },
-    {
-      "user_id": 1,
-      "order_no": "ORD-1778020000000-10",
-      "total": 11,
-      "paymentMethod": "Card",
-      "orderType": "Takeaway",
-      "status": "Paid",
-      "createdAt": "2026-05-05T08:30:00.000Z",
-      "expiry_time": "2026-05-05T08:45:00.000Z",
-      "id": "ord_010"
-    },
-    {
-      "user_id": 1,
-      "order_no": "ORD-1778106400000-20",
-      "total": 33,
-      "paymentMethod": "Card",
-      "orderType": "Dine-in",
-      "status": "Paid",
-      "createdAt": "2026-05-06T12:15:00.000Z",
-      "expiry_time": "2026-05-06T12:30:00.000Z",
-      "id": "ord_011"
-    },
-    {
-      "user_id": 3,
-      "order_no": "ORD-1778451200000-19",
-      "total": 85,
-      "paymentMethod": "Cash",
-      "orderType": "Dine-in",
-      "status": "Paid",
-      "createdAt": "2026-05-10T17:45:00.000Z",
-      "expiry_time": "2026-05-10T18:00:00.000Z",
-      "id": "ord_012"
-    },
-    {
-      "user_id": 2,
-      "order_no": "ORD-1778624000000-21",
-      "total": 19,
-      "paymentMethod": "Card",
-      "orderType": "Takeaway",
-      "status": "Paid",
-      "createdAt": "2026-05-12T15:20:00.000Z",
-      "expiry_time": "2026-05-12T15:35:00.000Z",
-      "id": "ord_013"
-    },
-    {
-      "user_id": 5,
-      "order_no": "ORD-1778796800000-22",
-      "total": 42,
-      "paymentMethod": "Cash",
-      "orderType": "Dine-in",
-      "status": "Paid",
-      "createdAt": "2026-05-14T09:00:00.000Z",
-      "expiry_time": "2026-05-14T09:15:00.000Z",
-      "id": "ord_014"
-    },
-    {
       "user_id": "5BGBdDX78KY",
-      "order_no": "ORD-1778774503763-213",
-      "total": 11,
-      "paymentMethod": "Card",
-      "orderType": "Dine-in",
-      "status": "Paid",
-      "createdAt": "2026-05-14T16:01:43.763Z",
-      "expiry_time": "2026-05-14T16:16:43.763Z",
-      "id": "a0QpPe3Wrkg"
-    },
-    {
-      "user_id": "Hj66MtsTYo0",
-      "order_no": "ORD-1778826849208-712",
-      "total": 77,
-      "paymentMethod": "Card",
-      "orderType": "Takeaway",
-      "status": "Paid",
-      "createdAt": "2026-05-15T06:34:09.208Z",
-      "expiry_time": "2026-05-15T06:49:09.208Z",
-      "id": "wM85_slyWCk"
-    },
-    {
-      "user_id": "5BGBdDX78KY",
-      "order_no": "ORD-1778938629146-58",
-      "total": 11,
-      "paymentMethod": "Card",
-      "orderType": "Dine-in",
-      "status": "Pending",
-      "createdAt": "2026-05-16T13:37:09.146Z",
-      "expiry_time": "2026-05-16T13:52:09.146Z",
-      "id": "TfUNorq1mTI"
-    },
-    {
-      "user_id": "5BGBdDX78KY",
-      "order_no": "ORD-1778941428284-916",
-      "total": 22,
-      "paymentMethod": "Card",
-      "orderType": "Dine-in",
-      "status": "Paid",
-      "createdAt": "2026-05-16T14:23:48.284Z",
-      "expiry_time": "2026-05-16T14:38:48.284Z",
-      "id": "Xq4rJt-CEsw"
-    },
-    {
-      "user_id": "5BGBdDX78KY",
-      "order_no": "ORD-1778941881001-392",
-      "total": 20,
+      "order_no": "ORD-1778975327854-457",
+      "total": 121,
       "paymentMethod": "Cash",
       "orderType": "Takeaway",
-      "status": "Processing",
-      "createdAt": "2026-05-16T14:31:21.001Z",
-      "expiry_time": "2026-05-16T14:46:21.001Z",
-      "id": "urpxieaLcJc",
-      "customerName": "ARIEF BUDIMAN",
-      "items": [
-        {
-          "id": "1gV0OgvEqsU",
-          "product_id": "98fqgOpXBxY",
-          "name": "Product (98fqgOpXBxY)",
-          "qty": 1,
-          "price": 20,
-          "subtotal": 20,
-          "customizations": {
-            "size": "Large (Venti)",
-            "temp": "Hot",
-            "sugar": "Normal Sugar",
-            "milk": "Normal Milk",
-            "syrups": [],
-            "note": ""
-          }
-        }
-      ]
-    },
-    {
-      "user_id": "5BGBdDX78KY",
-      "order_no": "ORD-1778943893333-716",
-      "total": 40,
-      "paymentMethod": "Card",
-      "orderType": "Dine-in",
-      "status": "Pending",
-      "createdAt": "2026-05-16T15:04:53.333Z",
-      "expiry_time": "2026-05-16T15:19:53.333Z",
-      "id": "XFNRpKcdXaU",
+      "status": "Completed",
+      "createdAt": "2026-05-16T23:48:47.854Z",
+      "expiry_time": "2026-05-17T00:03:47.854Z",
+      "id": "bVvMnjEf0xU",
       "customerName": "ARIEF BUDIMAN"
     },
     {
-      "user_id": "5BGBdDX78KY",
-      "order_no": "ORD-1778945247098-685",
-      "total": 33,
+      "user_id": "aVtb_zV05Es",
+      "order_no": "ORD-1778977987568-916",
+      "total": 242,
       "paymentMethod": "Card",
-      "orderType": "Takeaway",
-      "status": "Processing",
-      "createdAt": "2026-05-16T15:27:27.098Z",
-      "expiry_time": "2026-05-16T15:42:27.098Z",
-      "id": "Kb-IkPN9J4w"
+      "orderType": "Dine-in",
+      "status": "Completed",
+      "createdAt": "2026-05-17T00:33:07.568Z",
+      "expiry_time": "2026-05-17T00:48:07.568Z",
+      "id": "gDJfMQQ2-n8",
+      "customerName": "Arief Budiman"
+    },
+    {
+      "user_id": "aVtb_zV05Es",
+      "order_no": "ORD-1779002152240-192",
+      "total": 33,
+      "paymentMethod": "Cash",
+      "orderType": "Dine-in",
+      "status": "Cancelled",
+      "createdAt": "2026-05-17T07:15:52.240Z",
+      "expiry_time": "2026-05-17T07:30:52.240Z",
+      "id": "Blgw2EqeAhA"
     }
   ],
   "order_items": [
     {
-      "order_no": "ORD-1775011200000-10",
-      "product_id": "prod_espresso_01",
-      "qty": 2,
-      "price": 4.5,
-      "subtotal": 9,
-      "customizations": {
-        "size": "Regular",
-        "temp": "Hot",
-        "milk": "No Milk",
-        "syrups": []
-      },
-      "id": "oi_001"
-    },
-    {
-      "order_no": "ORD-1775011200000-10",
-      "product_id": "prod_bakery_01",
-      "qty": 1,
-      "price": 3,
-      "subtotal": 3,
-      "customizations": {
-        "size": "Regular",
-        "temp": "Warm",
-        "milk": "None",
-        "syrups": []
-      },
-      "id": "oi_002"
-    },
-    {
-      "order_no": "ORD-1775270400000-11",
-      "product_id": "prod_toast_02",
-      "qty": 2,
-      "price": 14,
-      "subtotal": 28,
-      "customizations": {
-        "size": "Regular",
-        "temp": "Hot",
-        "milk": "None",
-        "syrups": []
-      },
-      "id": "oi_003"
-    },
-    {
-      "order_no": "ORD-1775270400000-11",
-      "product_id": "prod_latte_05",
-      "qty": 2,
-      "price": 5.5,
-      "subtotal": 11,
-      "customizations": {
-        "size": "Large",
-        "temp": "Iced",
-        "milk": "Almond Milk",
-        "syrups": [
-          "Vanilla"
-        ]
-      },
-      "id": "oi_004"
-    },
-    {
-      "order_no": "ORD-1775270400000-11",
-      "product_id": "prod_brownie_03",
-      "qty": 2,
-      "price": 3,
-      "subtotal": 6,
-      "customizations": {
-        "size": "Regular",
-        "temp": "Warm",
-        "milk": "None",
-        "syrups": []
-      },
-      "id": "oi_005"
-    },
-    {
-      "order_no": "ORD-1775702400000-12",
-      "product_id": "prod_coldbrew_04",
-      "qty": 3,
-      "price": 4.5,
-      "subtotal": 13.5,
-      "customizations": {
-        "size": "Medium",
-        "temp": "Iced",
-        "milk": "No Milk",
-        "syrups": []
-      },
-      "id": "oi_006"
-    },
-    {
-      "order_no": "ORD-1775702400000-12",
-      "product_id": "prod_cinnamon_02",
-      "qty": 2,
-      "price": 3.75,
-      "subtotal": 7.5,
-      "customizations": {
-        "size": "Regular",
-        "temp": "Hot",
-        "milk": "None",
-        "syrups": [
-          "Caramel"
-        ]
-      },
-      "id": "oi_007"
-    },
-    {
-      "order_no": "ORD-1776220800000-13",
-      "product_id": "prod_waffle_09",
-      "qty": 2,
-      "price": 16.5,
-      "subtotal": 33,
-      "customizations": {
-        "size": "Large",
-        "temp": "Hot",
-        "milk": "None",
-        "syrups": [
-          "Maple"
-        ]
-      },
-      "id": "oi_008"
-    },
-    {
-      "order_no": "ORD-1776220800000-13",
-      "product_id": "prod_bagel_12",
-      "qty": 2,
-      "price": 11.5,
-      "subtotal": 23,
-      "customizations": {
-        "size": "Regular",
-        "temp": "Warm",
-        "milk": "None",
-        "syrups": []
-      },
-      "id": "oi_009"
-    },
-    {
-      "order_no": "ORD-1776220800000-13",
-      "product_id": "prod_matcha_06",
-      "qty": 2,
-      "price": 6,
-      "subtotal": 12,
-      "customizations": {
-        "size": "Medium",
-        "temp": "Hot",
-        "milk": "Oat Milk",
-        "syrups": []
-      },
-      "id": "oi_010"
-    },
-    {
-      "order_no": "ORD-1776652800000-14",
-      "product_id": "prod_macchiato_08",
-      "qty": 2,
-      "price": 5.25,
-      "subtotal": 10.5,
-      "customizations": {
-        "size": "Medium",
-        "temp": "Hot",
-        "milk": "Normal Milk",
-        "syrups": [
-          "Caramel"
-        ]
-      },
-      "id": "oi_011"
-    },
-    {
-      "order_no": "ORD-1776652800000-14",
-      "product_id": "prod_muffin_05",
-      "qty": 1,
-      "price": 4.5,
-      "subtotal": 4.5,
-      "customizations": {
-        "size": "Regular",
-        "temp": "Room Temp",
-        "milk": "None",
-        "syrups": []
-      },
-      "id": "oi_012"
-    },
-    {
-      "order_no": "ORD-1777084800000-15",
-      "product_id": "prod_sandwich_11",
-      "qty": 2,
-      "price": 12,
-      "subtotal": 24,
-      "customizations": {
-        "size": "Regular",
-        "temp": "Hot",
-        "milk": "None",
-        "syrups": []
-      },
-      "id": "oi_013"
-    },
-    {
-      "order_no": "ORD-1777084800000-15",
-      "product_id": "prod_lemontea_14",
-      "qty": 2,
-      "price": 4,
-      "subtotal": 8,
-      "customizations": {
-        "size": "Large",
-        "temp": "Iced",
-        "milk": "None",
-        "syrups": []
-      },
-      "id": "oi_014"
-    },
-    {
-      "order_no": "ORD-1777344000000-16",
-      "product_id": "prod_burger_22",
-      "qty": 2,
-      "price": 19.5,
-      "subtotal": 39,
-      "customizations": {
-        "size": "Regular",
-        "temp": "Hot",
-        "milk": "None",
-        "syrups": []
-      },
-      "id": "oi_015"
-    },
-    {
-      "order_no": "ORD-1777344000000-16",
-      "product_id": "prod_fries_23",
-      "qty": 2,
-      "price": 4.5,
-      "subtotal": 9,
-      "customizations": {
-        "size": "Regular",
-        "temp": "Hot",
-        "milk": "None",
-        "syrups": []
-      },
-      "id": "oi_016"
-    },
-    {
-      "order_no": "ORD-1777344000000-16",
-      "product_id": "prod_shake_24",
-      "qty": 1,
-      "price": 6,
-      "subtotal": 6,
-      "customizations": {
-        "size": "Regular",
-        "temp": "Cold",
-        "milk": "Normal Milk",
-        "syrups": [
-          "Vanilla"
-        ]
-      },
-      "id": "oi_017"
-    },
-    {
-      "order_no": "ORD-1777603200000-17",
-      "product_id": "prod_americano_31",
-      "qty": 2,
-      "price": 3.5,
-      "subtotal": 7,
-      "customizations": {
-        "size": "Medium",
-        "temp": "Hot",
-        "milk": "No Milk",
-        "syrups": []
-      },
-      "id": "oi_018"
-    },
-    {
-      "order_no": "ORD-1777603200000-17",
-      "product_id": "prod_choccandy_32",
-      "qty": 1,
-      "price": 4,
-      "subtotal": 4,
-      "customizations": {
-        "size": "Regular",
-        "temp": "Warm",
-        "milk": "None",
-        "syrups": []
-      },
-      "id": "oi_019"
-    },
-    {
-      "order_no": "ORD-1777948800000-18",
-      "product_id": "prod_bowl_41",
-      "qty": 2,
-      "price": 11,
-      "subtotal": 22,
-      "customizations": {
-        "size": "Regular",
-        "temp": "Cold",
-        "milk": "None",
-        "syrups": []
-      },
-      "id": "oi_020"
-    },
-    {
-      "order_no": "ORD-1777948800000-18",
-      "product_id": "prod_flatwhite_42",
-      "qty": 1,
-      "price": 6,
-      "subtotal": 6,
-      "customizations": {
-        "size": "Small",
-        "temp": "Hot",
-        "milk": "Oat Milk",
-        "syrups": []
-      },
-      "id": "oi_021"
-    },
-    {
-      "order_no": "ORD-1778020000000-10",
-      "product_id": "KcAfNFHXcoQ",
-      "qty": 1,
-      "price": 11,
-      "subtotal": 11,
-      "customizations": {
-        "size": "Small",
-        "temp": "Hot",
-        "milk": "Oat Milk",
-        "syrups": []
-      },
-      "id": "oi_022"
-    },
-    {
-      "order_no": "ORD-1778106400000-20",
-      "product_id": "98fqgOpXBxY",
-      "qty": 1,
-      "price": 33,
-      "subtotal": 33,
-      "customizations": {
-        "size": "Large",
-        "temp": "Iced",
-        "milk": "Normal Milk",
-        "syrups": [
-          "Caramel"
-        ]
-      },
-      "id": "oi_023"
-    },
-    {
-      "order_no": "ORD-1778451200000-19",
-      "product_id": "prod_steak_51",
-      "qty": 2,
-      "price": 28,
-      "subtotal": 56,
-      "customizations": {
-        "size": "Regular",
-        "temp": "Hot",
-        "milk": "None",
-        "syrups": []
-      },
-      "id": "oi_024"
-    },
-    {
-      "order_no": "ORD-1778451200000-19",
-      "product_id": "prod_potatoes_52",
-      "qty": 2,
-      "price": 8.5,
-      "subtotal": 17,
-      "customizations": {
-        "size": "Regular",
-        "temp": "Hot",
-        "milk": "None",
-        "syrups": []
-      },
-      "id": "oi_025"
-    },
-    {
-      "order_no": "ORD-1778451200000-19",
-      "product_id": "prod_flight_53",
-      "qty": 1,
-      "price": 12,
-      "subtotal": 12,
-      "customizations": {
-        "size": "Regular",
-        "temp": "Hot",
-        "milk": "Soy Milk",
-        "syrups": []
-      },
-      "id": "oi_026"
-    },
-    {
-      "order_no": "ORD-1778624000000-21",
-      "product_id": "prod_matchalatte_61",
-      "qty": 2,
-      "price": 6.5,
-      "subtotal": 13,
-      "customizations": {
-        "size": "Medium",
-        "temp": "Iced",
-        "milk": "Oat Milk",
-        "syrups": []
-      },
-      "id": "oi_027"
-    },
-    {
-      "order_no": "ORD-1778624000000-21",
-      "product_id": "prod_bananabread_62",
-      "qty": 2,
-      "price": 3,
-      "subtotal": 6,
-      "customizations": {
-        "size": "Regular",
-        "temp": "Warm",
-        "milk": "None",
-        "syrups": []
-      },
-      "id": "oi_028"
-    },
-    {
-      "order_no": "ORD-1778796800000-22",
-      "product_id": "prod_pancake_71",
-      "qty": 2,
-      "price": 12.5,
-      "subtotal": 25,
-      "customizations": {
-        "size": "Regular",
-        "temp": "Hot",
-        "milk": "None",
-        "syrups": [
-          "Maple"
-        ]
-      },
-      "id": "oi_029"
-    },
-    {
-      "order_no": "ORD-1778796800000-22",
-      "product_id": "prod_coldbrewlatte_72",
-      "qty": 2,
-      "price": 5.5,
-      "subtotal": 11,
-      "customizations": {
-        "size": "Medium",
-        "temp": "Iced",
-        "milk": "Normal Milk",
-        "syrups": []
-      },
-      "id": "oi_030"
-    },
-    {
-      "order_no": "ORD-1778796800000-22",
-      "product_id": "prod_scone_73",
-      "qty": 2,
-      "price": 3,
-      "subtotal": 6,
-      "customizations": {
-        "size": "Regular",
-        "temp": "Warm",
-        "milk": "None",
-        "syrups": []
-      },
-      "id": "oi_031"
-    },
-    {
-      "order_no": "ORD-1778774503763-213",
-      "product_id": "prod_mocha_81",
-      "qty": 1,
-      "price": 6.5,
-      "subtotal": 6.5,
-      "customizations": {
-        "size": "Medium",
-        "temp": "Hot",
-        "milk": "Normal Milk",
-        "syrups": []
-      },
-      "id": "oi_032"
-    },
-    {
-      "order_no": "ORD-1778774503763-213",
-      "product_id": "prod_biscotti_82",
-      "qty": 1,
-      "price": 4.5,
-      "subtotal": 4.5,
-      "customizations": {
-        "size": "Regular",
-        "temp": "Room Temp",
-        "milk": "None",
-        "syrups": []
-      },
-      "id": "oi_033"
-    },
-    {
-      "order_no": "ORD-1778826849208-712",
+      "order_no": "ORD-1778975327854-457",
       "product_id": "KcAfNFHXcoQ",
       "qty": 1,
       "price": 10,
@@ -942,154 +212,118 @@
         "extraShots": 0,
         "note": ""
       },
-      "added_at": "2026-05-15T06:34:09.232Z",
-      "id": "WGbwaQsH8hM"
+      "added_at": "2026-05-16T23:48:47.873Z",
+      "id": "coNx6EwMP94"
     },
     {
-      "order_no": "ORD-1778826849208-712",
-      "product_id": "rxH8g4kmwV0",
-      "qty": 3,
-      "price": 20,
-      "subtotal": 60,
+      "order_no": "ORD-1778975327854-457",
+      "product_id": "_O26JHRKKS4",
+      "qty": 1,
+      "price": 100,
+      "subtotal": 100,
+      "customizations": {
+        "size": "Large (Venti)",
+        "temp": "Iced",
+        "sugar": "Normal Sugar",
+        "milk": "Normal Milk",
+        "syrups": [
+          "Vanilla",
+          "Pumpkin Spice"
+        ],
+        "sweeteners": [],
+        "caffeine": "Decaf",
+        "extraShots": 1,
+        "note": ""
+      },
+      "added_at": "2026-05-16T23:48:47.875Z",
+      "id": "YZKK8bLqr0U"
+    },
+    {
+      "order_no": "ORD-1778977987568-916",
+      "product_id": "KcAfNFHXcoQ",
+      "qty": 2,
+      "price": 10,
+      "subtotal": 20,
       "customizations": {
         "size": "Large (Venti)",
         "temp": "Hot",
         "sugar": "Normal Sugar",
-        "milk": "Oat Milk",
-        "syrups": [],
-        "sweeteners": [],
-        "caffeine": "Regular",
-        "extraShots": 0,
-        "note": ""
-      },
-      "added_at": "2026-05-15T06:34:09.233Z",
-      "id": "5-53GKMxzn8"
-    },
-    {
-      "order_no": "ORD-1778938629146-58",
-      "product_id": "KcAfNFHXcoQ",
-      "qty": 1,
-      "price": 10,
-      "subtotal": 10,
-      "customizations": {
-        "size": "Medium (Grande)",
-        "temp": "Hot",
-        "sugar": "Normal Sugar",
         "milk": "Normal Milk",
-        "syrups": [],
-        "sweeteners": [],
-        "caffeine": "Regular",
-        "extraShots": 0,
-        "note": ""
-      },
-      "added_at": "2026-05-16T13:37:09.157Z",
-      "id": "C3j9DnKKg3A"
-    },
-    {
-      "order_no": "ORD-1778941428284-916",
-      "product_id": "98fqgOpXBxY",
-      "qty": 1,
-      "price": 20,
-      "subtotal": 20,
-      "customizations": {
-        "size": "Medium (Grande)",
-        "temp": "Hot",
-        "sugar": "Normal Sugar",
-        "milk": "Normal Milk",
-        "syrups": [],
-        "sweeteners": [],
-        "caffeine": "Regular",
-        "extraShots": 0,
-        "note": ""
-      },
-      "added_at": "2026-05-16T14:23:48.296Z",
-      "id": "ayFDM8Fnd0g"
-    },
-    {
-      "order_no": "ORD-1778941881001-392",
-      "product_id": "98fqgOpXBxY",
-      "qty": 1,
-      "price": 20,
-      "subtotal": 20,
-      "customizations": {
-        "size": "Medium (Grande)",
-        "temp": "Hot",
-        "sugar": "Normal Sugar",
-        "milk": "Normal Milk",
-        "syrups": [],
-        "sweeteners": [],
-        "caffeine": "Regular",
-        "extraShots": 0,
-        "note": ""
-      },
-      "added_at": "2026-05-16T14:31:21.013Z",
-      "id": "1gV0OgvEqsU"
-    },
-    {
-      "id": "6EA8rxqCI7U",
-      "product_id": "98fqgOpXBxY",
-      "name": "Product (98fqgOpXBxY)",
-      "qty": 2,
-      "price": 20,
-      "subtotal": 40,
-      "customizations": {
-        "size": "Medium (Grande)",
-        "temp": "Hot",
-        "sugar": "Less Sugar",
-        "milk": "Oat Milk",
         "syrups": [
-          "Vanilla"
+          "Caramel",
+          "Hazelnut"
+        ],
+        "sweeteners": [],
+        "caffeine": "Decaf",
+        "extraShots": 1,
+        "note": "test note"
+      },
+      "added_at": "2026-05-17T00:33:07.586Z",
+      "id": "bNy0YZ2ZaTQ"
+    },
+    {
+      "order_no": "ORD-1778977987568-916",
+      "product_id": "_O26JHRKKS4",
+      "qty": 2,
+      "price": 100,
+      "subtotal": 200,
+      "customizations": {
+        "size": "Medium (Grande)",
+        "temp": "Hot",
+        "sugar": "Normal Sugar",
+        "milk": "Normal Milk",
+        "syrups": [],
+        "sweeteners": [],
+        "caffeine": "Regular",
+        "extraShots": 0,
+        "note": ""
+      },
+      "added_at": "2026-05-17T00:33:07.587Z",
+      "id": "LTpuZkVLHNU"
+    },
+    {
+      "order_no": "ORD-1779002152240-192",
+      "product_id": "98fqgOpXBxY",
+      "qty": 1,
+      "price": 20,
+      "subtotal": 20,
+      "customizations": {
+        "size": "Medium (Grande)",
+        "temp": "Iced",
+        "sugar": "Less Sugar",
+        "milk": "Normal Milk",
+        "syrups": [
+          "Pumpkin Spice"
         ],
         "sweeteners": [],
         "caffeine": "Regular",
-        "extraShots": 0,
-        "note": "test"
-      }
+        "extraShots": 1,
+        "note": ""
+      },
+      "added_at": "2026-05-17T07:15:52.260Z",
+      "id": "S6CnbyMIHzI"
     },
     {
-      "order_no": "ORD-1778945247098-685",
+      "order_no": "ORD-1779002152240-192",
       "product_id": "KcAfNFHXcoQ",
       "qty": 1,
       "price": 10,
       "subtotal": 10,
       "customizations": {
-        "size": "Large (Venti)",
+        "size": "Medium (Grande)",
         "temp": "Hot",
-        "sugar": "Less Sugar",
-        "milk": "Normal Milk",
+        "sugar": "Normal Sugar",
+        "milk": "Oat Milk",
         "syrups": [
-          "Caramel"
+          "Hazelnut"
         ],
         "sweeteners": [],
         "caffeine": "Decaf",
         "extraShots": 0,
         "note": ""
       },
-      "added_at": "2026-05-16T15:27:27.108Z",
-      "id": "2TQHH0H9JNk"
-    },
-    {
-      "order_no": "ORD-1778945247098-685",
-      "product_id": "98fqgOpXBxY",
-      "qty": 1,
-      "price": 20,
-      "subtotal": 20,
-      "customizations": {
-        "size": "Small (Tall/Short)",
-        "temp": "Iced",
-        "sugar": "No Sugar",
-        "milk": "Oat Milk",
-        "syrups": [
-          "Caramel",
-          "Pumpkin Spice"
-        ],
-        "sweeteners": [],
-        "caffeine": "Half-caff",
-        "extraShots": 1,
-        "note": ""
-      },
-      "added_at": "2026-05-16T15:27:27.109Z",
-      "id": "44_GTUQ4g0Y"
+      "added_at": "2026-05-17T07:15:52.262Z",
+      "id": "xBGYq4D1mFQ"
     }
   ],
   "customers": [
@@ -1099,6 +333,13 @@
       "joinedAt": "2026-05-15T06:30:40.548Z",
       "createdAt": "2026-05-15T06:30:40.548Z",
       "id": "u8N-PwCdz8Y"
+    },
+    {
+      "user_id": "aVtb_zV05Es",
+      "name": "Arief Budiman",
+      "joinedAt": "2026-05-17T00:22:05.526Z",
+      "createdAt": "2026-05-17T00:22:05.526Z",
+      "id": "jQSm-ymf8Ac"
     }
   ],
   "promotions": [
