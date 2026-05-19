@@ -26,6 +26,84 @@
       "updatedAt": "2026-05-17T00:22:05.526Z",
       "updatedBy": "Arief Budiman",
       "id": "aVtb_zV05Es"
+    },
+    {
+      "name": "Black coffee",
+      "email": "test@test.com",
+      "password": "123",
+      "role": "customer",
+      "isActive": true,
+      "user_no": "USR-324",
+      "createdAt": "2026-05-17T17:38:21.401Z",
+      "createdBy": "Black coffee",
+      "updatedAt": "2026-05-17T17:38:21.401Z",
+      "updatedBy": "Black coffee",
+      "id": "P6sUP4BQ56k"
+    },
+    {
+      "name": "wow",
+      "email": "wow@wow.com",
+      "password": "123",
+      "role": "customer",
+      "isActive": true,
+      "user_no": "USR-284",
+      "createdAt": "2026-05-17T17:38:54.350Z",
+      "createdBy": "wow",
+      "updatedAt": "2026-05-17T17:38:54.350Z",
+      "updatedBy": "wow",
+      "id": "2m3Ix4EUnfs"
+    },
+    {
+      "name": "common-css",
+      "email": "hdjs@jds.com",
+      "password": "123",
+      "role": "customer",
+      "isActive": true,
+      "user_no": "USR-272",
+      "createdAt": "2026-05-17T17:40:20.612Z",
+      "createdBy": "common-css",
+      "updatedAt": "2026-05-17T17:40:20.612Z",
+      "updatedBy": "common-css",
+      "id": "l5i8GPJxCNM"
+    },
+    {
+      "name": "anto",
+      "email": "anna@sjsk-com",
+      "password": "123",
+      "role": "customer",
+      "isActive": true,
+      "user_no": "USR-589",
+      "createdAt": "2026-05-17T17:40:58.575Z",
+      "createdBy": "anto",
+      "updatedAt": "2026-05-17T17:40:58.575Z",
+      "updatedBy": "anto",
+      "id": "Zcq1A53_MlQ"
+    },
+    {
+      "name": "dodo",
+      "email": "dodo@dodo.com",
+      "password": "123",
+      "role": "customer",
+      "isActive": true,
+      "user_no": "USR-765",
+      "createdAt": "2026-05-17T17:56:49.387Z",
+      "createdBy": "dodo",
+      "updatedAt": "2026-05-17T17:56:49.387Z",
+      "updatedBy": "dodo",
+      "id": "8CoBTY1Okec"
+    },
+    {
+      "name": "756",
+      "email": "34@kjd.com",
+      "password": "123",
+      "role": "customer",
+      "isActive": true,
+      "user_no": "USR-375",
+      "createdAt": "2026-05-17T18:01:30.529Z",
+      "createdBy": "756",
+      "updatedAt": "2026-05-17T18:01:30.529Z",
+      "updatedBy": "756",
+      "id": "xm4Nh22xdw8"
     }
   ],
   "employees": [
@@ -41,19 +119,6 @@
       "status": "Active",
       "email": "smartbrain75@gmail.com",
       "id": "1m5T_jsV8FY"
-    },
-    {
-      "emp_no": "EEMP-963",
-      "first_name": "Anna",
-      "last_name": "Firmansyah",
-      "work_dept": "BAR",
-      "phone_no": "015734413268",
-      "hire_date": "2026-05-13",
-      "job_title": "Barista",
-      "salary": 3000,
-      "status": "Active",
-      "email": "annafirmansyah25@gmail.com",
-      "id": "eQQvAz3EzmA"
     },
     {
       "emp_no": "EEMP-765",
@@ -161,37 +226,254 @@
     {
       "user_id": "5BGBdDX78KY",
       "order_no": "ORD-1778975327854-457",
-      "total": 121,
+      "total": 120,
       "paymentMethod": "Cash",
       "orderType": "Takeaway",
       "status": "Completed",
-      "createdAt": "2026-05-16T23:48:47.854Z",
-      "expiry_time": "2026-05-17T00:03:47.854Z",
+      "createdAt": "2026-05-19T08:12:44.201Z",
+      "expiry_time": "2026-05-19T08:27:44.201Z",
       "id": "bVvMnjEf0xU",
       "customerName": "ARIEF BUDIMAN"
     },
     {
       "user_id": "aVtb_zV05Es",
       "order_no": "ORD-1778977987568-916",
-      "total": 242,
+      "total": 200,
       "paymentMethod": "Card",
       "orderType": "Dine-in",
       "status": "Completed",
-      "createdAt": "2026-05-17T00:33:07.568Z",
-      "expiry_time": "2026-05-17T00:48:07.568Z",
+      "createdAt": "2026-05-19T11:45:10.550Z",
+      "expiry_time": "2026-05-19T12:00:10.550Z",
       "id": "gDJfMQQ2-n8",
       "customerName": "Arief Budiman"
     },
     {
-      "user_id": "aVtb_zV05Es",
-      "order_no": "ORD-1779002152240-192",
-      "total": 33,
-      "paymentMethod": "Cash",
+      "user_id": "cWzb_9V01Kz",
+      "order_no": "ORD-1778980123992-917",
+      "total": 35,
+      "paymentMethod": "QRIS",
+      "orderType": "Takeaway",
+      "status": "Completed",
+      "createdAt": "2026-05-19T14:22:05.110Z",
+      "expiry_time": "2026-05-19T14:37:05.110Z",
+      "id": "id_1003_452",
+      "customerName": "Siti Aminah"
+    },
+    {
+      "user_id": "dXtb_zM02Ws",
+      "order_no": "ORD-1778982441995-918",
+      "total": 110,
+      "paymentMethod": "Card",
       "orderType": "Dine-in",
       "status": "Cancelled",
-      "createdAt": "2026-05-17T07:15:52.240Z",
-      "expiry_time": "2026-05-17T07:30:52.240Z",
-      "id": "Blgw2EqeAhA"
+      "createdAt": "2026-05-19T16:55:12.800Z",
+      "expiry_time": "2026-05-19T17:10:12.800Z",
+      "id": "id_1004_122",
+      "customerName": "Budi Santoso"
+    },
+    {
+      "user_id": "ePzb_vL03Ps",
+      "order_no": "ORD-1778985112003-919",
+      "total": 45,
+      "paymentMethod": "Cash",
+      "orderType": "Takeaway",
+      "status": "Completed",
+      "createdAt": "2026-05-19T20:11:33.450Z",
+      "expiry_time": "2026-05-19T20:26:33.450Z",
+      "id": "id_1005_764",
+      "customerName": "Dewi Lestari"
+    },
+    {
+      "user_id": "5BGBdDX78KY",
+      "order_no": "ORD-1778910001223-920",
+      "total": 10,
+      "paymentMethod": "Cash",
+      "orderType": "Takeaway",
+      "status": "Completed",
+      "createdAt": "2026-05-18T07:44:12.115Z",
+      "expiry_time": "2026-05-18T07:59:12.115Z",
+      "id": "id_1006_812",
+      "customerName": "ARIEF BUDIMAN"
+    },
+    {
+      "user_id": "aVtb_zV05Es",
+      "order_no": "ORD-1778912234543-921",
+      "total": 210,
+      "paymentMethod": "Card",
+      "orderType": "Dine-in",
+      "status": "Completed",
+      "createdAt": "2026-05-18T10:15:33.990Z",
+      "expiry_time": "2026-05-18T10:30:33.990Z",
+      "id": "id_1007_341",
+      "customerName": "Arief Budiman"
+    },
+    {
+      "user_id": "cWzb_9V01Kz",
+      "order_no": "ORD-1778915567812-922",
+      "total": 135,
+      "paymentMethod": "QRIS",
+      "orderType": "Takeaway",
+      "status": "Completed",
+      "createdAt": "2026-05-18T13:59:01.442Z",
+      "expiry_time": "2026-05-18T14:14:01.442Z",
+      "id": "id_1008_554",
+      "customerName": "Siti Aminah"
+    },
+    {
+      "user_id": "dXtb_zM02Ws",
+      "order_no": "ORD-1778918890123-923",
+      "total": 15,
+      "paymentMethod": "Cash",
+      "orderType": "Dine-in",
+      "status": "Completed",
+      "createdAt": "2026-05-18T16:22:47.112Z",
+      "expiry_time": "2026-05-18T16:37:47.112Z",
+      "id": "id_1009_291",
+      "customerName": "Budi Santoso"
+    },
+    {
+      "user_id": "ePzb_vL03Ps",
+      "order_no": "ORD-1778921123456-924",
+      "total": 55,
+      "paymentMethod": "Card",
+      "orderType": "Takeaway",
+      "status": "Completed",
+      "createdAt": "2026-05-18T19:48:12.600Z",
+      "expiry_time": "2026-05-18T20:03:12.600Z",
+      "id": "id_1010_412",
+      "customerName": "Dewi Lestari"
+    },
+    {
+      "user_id": "5BGBdDX78KY",
+      "order_no": "ORD-1778841123991-925",
+      "total": 100,
+      "paymentMethod": "QRIS",
+      "orderType": "Dine-in",
+      "status": "Completed",
+      "createdAt": "2026-05-17T09:12:00.812Z",
+      "expiry_time": "2026-05-17T09:27:00.812Z",
+      "id": "id_1011_611",
+      "customerName": "ARIEF BUDIMAN"
+    },
+    {
+      "user_id": "aVtb_zV05Es",
+      "order_no": "ORD-1778844561223-926",
+      "total": 20,
+      "paymentMethod": "Cash",
+      "orderType": "Takeaway",
+      "status": "Completed",
+      "createdAt": "2026-05-17T12:30:15.412Z",
+      "expiry_time": "2026-05-17T12:45:15.412Z",
+      "id": "id_1012_718",
+      "customerName": "Arief Budiman"
+    },
+    {
+      "user_id": "cWzb_9V01Kz",
+      "order_no": "ORD-1778848901234-927",
+      "total": 115,
+      "paymentMethod": "Card",
+      "orderType": "Takeaway",
+      "status": "Completed",
+      "createdAt": "2026-05-17T15:10:45.319Z",
+      "expiry_time": "2026-05-17T15:25:45.319Z",
+      "id": "id_1013_889",
+      "customerName": "Siti Aminah"
+    },
+    {
+      "user_id": "dXtb_zM02Ws",
+      "order_no": "ORD-1778851234567-928",
+      "total": 45,
+      "paymentMethod": "QRIS",
+      "orderType": "Dine-in",
+      "status": "Completed",
+      "createdAt": "2026-05-17T18:42:19.500Z",
+      "expiry_time": "2026-05-17T18:57:19.500Z",
+      "id": "id_1014_912",
+      "customerName": "Budi Santoso"
+    },
+    {
+      "user_id": "ePzb_vL03Ps",
+      "order_no": "ORD-1778854567890-929",
+      "total": 130,
+      "paymentMethod": "Card",
+      "orderType": "Takeaway",
+      "status": "Completed",
+      "createdAt": "2026-05-17T21:05:00.112Z",
+      "expiry_time": "2026-05-17T21:20:00.112Z",
+      "id": "id_1015_451",
+      "customerName": "Dewi Lestari"
+    },
+    {
+      "user_id": "5BGBdDX78KY",
+      "order_no": "ORD-1775834212999-001",
+      "total": 110,
+      "paymentMethod": "Card",
+      "orderType": "Dine-in",
+      "status": "Completed",
+      "createdAt": "2026-04-15T12:30:11.450Z",
+      "expiry_time": "2026-04-15T12:45:11.450Z",
+      "id": "id_2001_112",
+      "customerName": "ARIEF BUDIMAN"
+    },
+    {
+      "user_id": "aVtb_zV05Es",
+      "order_no": "ORD-1775839912111-002",
+      "total": 60,
+      "paymentMethod": "Cash",
+      "orderType": "Takeaway",
+      "status": "Completed",
+      "createdAt": "2026-04-15T15:22:45.900Z",
+      "expiry_time": "2026-04-15T15:37:45.900Z",
+      "id": "id_2002_441",
+      "customerName": "Arief Budiman"
+    },
+    {
+      "user_id": "5BGBdDX78KY",
+      "order_no": "ORD-1773011223344-055",
+      "total": 145,
+      "paymentMethod": "QRIS",
+      "orderType": "Takeaway",
+      "status": "Completed",
+      "createdAt": "2026-03-12T10:15:30.120Z",
+      "expiry_time": "2026-03-12T10:30:30.120Z",
+      "id": "id_3001_881",
+      "customerName": "ARIEF BUDIMAN"
+    },
+    {
+      "user_id": "cWzb_9V01Kz",
+      "order_no": "ORD-1773019988776-056",
+      "total": 100,
+      "paymentMethod": "Card",
+      "orderType": "Dine-in",
+      "status": "Completed",
+      "createdAt": "2026-03-12T14:44:18.600Z",
+      "expiry_time": "2026-03-12T14:59:18.600Z",
+      "id": "id_3002_912",
+      "customerName": "Siti Aminah"
+    },
+    {
+      "user_id": "dXtb_zM02Ws",
+      "order_no": "ORD-1770911223344-099",
+      "total": 115,
+      "paymentMethod": "Cash",
+      "orderType": "Takeaway",
+      "status": "Completed",
+      "createdAt": "2026-02-20T11:05:44.200Z",
+      "expiry_time": "2026-02-20T11:20:44.200Z",
+      "id": "id_4001_332",
+      "customerName": "Budi Santoso"
+    },
+    {
+      "user_id": "ePzb_vL03Ps",
+      "order_no": "ORD-1770922334455-100",
+      "total": 145,
+      "paymentMethod": "QRIS",
+      "orderType": "Dine-in",
+      "status": "Completed",
+      "createdAt": "2026-02-20T16:50:12.750Z",
+      "expiry_time": "2026-02-20T17:05:12.750Z",
+      "id": "id_4002_771",
+      "customerName": "Dewi Lestari"
     }
   ],
   "order_items": [
@@ -212,7 +494,7 @@
         "extraShots": 0,
         "note": ""
       },
-      "added_at": "2026-05-16T23:48:47.873Z",
+      "added_at": "2026-05-19T08:12:44.201Z",
       "id": "coNx6EwMP94"
     },
     {
@@ -226,47 +508,21 @@
         "temp": "Iced",
         "sugar": "Normal Sugar",
         "milk": "Normal Milk",
-        "syrups": [
-          "Vanilla",
-          "Pumpkin Spice"
-        ],
+        "syrups": ["Vanilla", "Pumpkin Spice"],
         "sweeteners": [],
         "caffeine": "Decaf",
         "extraShots": 1,
         "note": ""
       },
-      "added_at": "2026-05-16T23:48:47.875Z",
+      "added_at": "2026-05-19T08:12:44.201Z",
       "id": "YZKK8bLqr0U"
     },
     {
-      "order_no": "ORD-1778977987568-916",
-      "product_id": "KcAfNFHXcoQ",
+      "order_no": "ORD-1778975327854-457",
+      "product_id": "PrOdUCT0003",
       "qty": 2,
-      "price": 10,
-      "subtotal": 20,
-      "customizations": {
-        "size": "Large (Venti)",
-        "temp": "Hot",
-        "sugar": "Normal Sugar",
-        "milk": "Normal Milk",
-        "syrups": [
-          "Caramel",
-          "Hazelnut"
-        ],
-        "sweeteners": [],
-        "caffeine": "Decaf",
-        "extraShots": 1,
-        "note": "test note"
-      },
-      "added_at": "2026-05-17T00:33:07.586Z",
-      "id": "bNy0YZ2ZaTQ"
-    },
-    {
-      "order_no": "ORD-1778977987568-916",
-      "product_id": "_O26JHRKKS4",
-      "qty": 2,
-      "price": 100,
-      "subtotal": 200,
+      "price": 5,
+      "subtotal": 10,
       "customizations": {
         "size": "Medium (Grande)",
         "temp": "Hot",
@@ -278,33 +534,91 @@
         "extraShots": 0,
         "note": ""
       },
-      "added_at": "2026-05-17T00:33:07.587Z",
-      "id": "LTpuZkVLHNU"
+      "added_at": "2026-05-19T08:12:44.201Z",
+      "id": "item_1001_abc"
     },
     {
-      "order_no": "ORD-1779002152240-192",
-      "product_id": "98fqgOpXBxY",
+      "order_no": "ORD-1778977987568-916",
+      "product_id": "_O26JHRKKS4",
+      "qty": 2,
+      "price": 100,
+      "subtotal": 200,
+      "customizations": {
+        "size": "Large (Venti)",
+        "temp": "Iced",
+        "sugar": "Normal Sugar",
+        "milk": "Normal Milk",
+        "syrups": ["Caramel"],
+        "sweeteners": [],
+        "caffeine": "Regular",
+        "extraShots": 0,
+        "note": ""
+      },
+      "added_at": "2026-05-19T11:45:10.550Z",
+      "id": "item_1002_xyz"
+    },
+    {
+      "order_no": "ORD-1778980123992-917",
+      "product_id": "PrOdUCT0003",
       "qty": 1,
-      "price": 20,
+      "price": 15,
+      "subtotal": 15,
+      "customizations": {
+        "size": "Medium (Grande)",
+        "temp": "Hot",
+        "sugar": "Normal Sugar",
+        "milk": "Normal Milk",
+        "syrups": [],
+        "sweeteners": [],
+        "caffeine": "Regular",
+        "extraShots": 0,
+        "note": ""
+      },
+      "added_at": "2026-05-19T14:22:05.110Z",
+      "id": "item_1003_p1"
+    },
+    {
+      "order_no": "ORD-1778980123992-917",
+      "product_id": "KcAfNFHXcoQ",
+      "qty": 2,
+      "price": 10,
       "subtotal": 20,
       "customizations": {
         "size": "Medium (Grande)",
-        "temp": "Iced",
-        "sugar": "Less Sugar",
+        "temp": "Hot",
+        "sugar": "Normal Sugar",
         "milk": "Normal Milk",
-        "syrups": [
-          "Pumpkin Spice"
-        ],
+        "syrups": [],
         "sweeteners": [],
         "caffeine": "Regular",
-        "extraShots": 1,
+        "extraShots": 0,
         "note": ""
       },
-      "added_at": "2026-05-17T07:15:52.260Z",
-      "id": "S6CnbyMIHzI"
+      "added_at": "2026-05-19T14:22:05.110Z",
+      "id": "item_1003_p2"
     },
     {
-      "order_no": "ORD-1779002152240-192",
+      "order_no": "ORD-1778982441995-918",
+      "product_id": "_O26JHRKKS4",
+      "qty": 1,
+      "price": 100,
+      "subtotal": 100,
+      "customizations": {
+        "size": "Large (Venti)",
+        "temp": "Iced",
+        "sugar": "Normal Sugar",
+        "milk": "Normal Milk",
+        "syrups": [],
+        "sweeteners": [],
+        "caffeine": "Regular",
+        "extraShots": 0,
+        "note": ""
+      },
+      "added_at": "2026-05-19T16:55:12.800Z",
+      "id": "item_1004_k1"
+    },
+    {
+      "order_no": "ORD-1778982441995-918",
       "product_id": "KcAfNFHXcoQ",
       "qty": 1,
       "price": 10,
@@ -313,33 +627,299 @@
         "size": "Medium (Grande)",
         "temp": "Hot",
         "sugar": "Normal Sugar",
-        "milk": "Oat Milk",
-        "syrups": [
-          "Hazelnut"
-        ],
+        "milk": "Normal Milk",
+        "syrups": [],
         "sweeteners": [],
-        "caffeine": "Decaf",
+        "caffeine": "Regular",
         "extraShots": 0,
         "note": ""
       },
-      "added_at": "2026-05-17T07:15:52.262Z",
-      "id": "xBGYq4D1mFQ"
+      "added_at": "2026-05-19T16:55:12.800Z",
+      "id": "item_1004_k2"
+    },
+    {
+      "order_no": "ORD-1778985112003-919",
+      "product_id": "PrOdUCT0005",
+      "qty": 1,
+      "price": 45,
+      "subtotal": 45,
+      "customizations": {
+        "size": "Large (Venti)",
+        "temp": "Iced",
+        "sugar": "Normal Sugar",
+        "milk": "Normal Milk",
+        "syrups": [],
+        "sweeteners": [],
+        "caffeine": "Regular",
+        "extraShots": 0,
+        "note": ""
+      },
+      "added_at": "2026-05-19T20:11:33.450Z",
+      "id": "item_1005_j1"
+    },
+    {
+      "order_no": "ORD-1775834212999-001",
+      "product_id": "_O26JHRKKS4",
+      "qty": 1,
+      "price": 100,
+      "subtotal": 100,
+      "customizations": {
+        "size": "Large (Venti)",
+        "temp": "Iced",
+        "sugar": "Normal Sugar",
+        "milk": "Normal Milk",
+        "syrups": [],
+        "sweeteners": [],
+        "caffeine": "Regular",
+        "extraShots": 0,
+        "note": ""
+      },
+      "added_at": "2026-04-15T12:30:11.450Z",
+      "id": "item_2001_m1"
+    },
+    {
+      "order_no": "ORD-1775834212999-001",
+      "product_id": "KcAfNFHXcoQ",
+      "qty": 1,
+      "price": 10,
+      "subtotal": 10,
+      "customizations": {
+        "size": "Medium (Grande)",
+        "temp": "Hot",
+        "sugar": "Normal Sugar",
+        "milk": "Normal Milk",
+        "syrups": [],
+        "sweeteners": [],
+        "caffeine": "Regular",
+        "extraShots": 0,
+        "note": ""
+      },
+      "added_at": "2026-04-15T12:30:11.450Z",
+      "id": "item_2001_m2"
+    },
+    {
+      "order_no": "ORD-1775839912111-002",
+      "product_id": "PrOdUCT0004",
+      "qty": 2,
+      "price": 25,
+      "subtotal": 50,
+      "customizations": {
+        "size": "Medium (Grande)",
+        "temp": "Hot",
+        "sugar": "Normal Sugar",
+        "milk": "Normal Milk",
+        "syrups": [],
+        "sweeteners": [],
+        "caffeine": "Regular",
+        "extraShots": 0,
+        "note": ""
+      },
+      "added_at": "2026-04-15T15:22:45.900Z",
+      "id": "item_2002_n1"
+    },
+    {
+      "order_no": "ORD-1775839912111-002",
+      "product_id": "KcAfNFHXcoQ",
+      "qty": 1,
+      "price": 10,
+      "subtotal": 10,
+      "customizations": {
+        "size": "Medium (Grande)",
+        "temp": "Hot",
+        "sugar": "Normal Sugar",
+        "milk": "Normal Milk",
+        "syrups": [],
+        "sweeteners": [],
+        "caffeine": "Regular",
+        "extraShots": 0,
+        "note": ""
+      },
+      "added_at": "2026-04-15T15:22:45.900Z",
+      "id": "item_2002_n2"
+    },
+    {
+      "order_no": "ORD-1773011223344-055",
+      "product_id": "_O26JHRKKS4",
+      "qty": 1,
+      "price": 100,
+      "subtotal": 100,
+      "customizations": {
+        "size": "Large (Venti)",
+        "temp": "Iced",
+        "sugar": "Normal Sugar",
+        "milk": "Normal Milk",
+        "syrups": [],
+        "sweeteners": [],
+        "caffeine": "Regular",
+        "extraShots": 0,
+        "note": ""
+      },
+      "added_at": "2026-03-12T10:15:30.120Z",
+      "id": "item_3001_x1"
+    },
+    {
+      "order_no": "ORD-1773011223344-055",
+      "product_id": "PrOdUCT0005",
+      "qty": 1,
+      "price": 45,
+      "subtotal": 45,
+      "customizations": {
+        "size": "Large (Venti)",
+        "temp": "Iced",
+        "sugar": "Normal Sugar",
+        "milk": "Normal Milk",
+        "syrups": [],
+        "sweeteners": [],
+        "caffeine": "Regular",
+        "extraShots": 0,
+        "note": ""
+      },
+      "added_at": "2026-03-12T10:15:30.120Z",
+      "id": "item_3001_x2"
+    },
+    {
+      "order_no": "ORD-1773019988776-056",
+      "product_id": "_O26JHRKKS4",
+      "qty": 1,
+      "price": 100,
+      "subtotal": 100,
+      "customizations": {
+        "size": "Large (Venti)",
+        "temp": "Iced",
+        "sugar": "Normal Sugar",
+        "milk": "Normal Milk",
+        "syrups": [],
+        "sweeteners": [],
+        "caffeine": "Regular",
+        "extraShots": 0,
+        "note": ""
+      },
+      "added_at": "2026-03-12T14:44:18.600Z",
+      "id": "item_3002_y1"
+    },
+    {
+      "order_no": "ORD-1770911223344-099",
+      "product_id": "_O26JHRKKS4",
+      "qty": 1,
+      "price": 100,
+      "subtotal": 100,
+      "customizations": {
+        "size": "Large (Venti)",
+        "temp": "Iced",
+        "sugar": "Normal Sugar",
+        "milk": "Normal Milk",
+        "syrups": [],
+        "sweeteners": [],
+        "caffeine": "Regular",
+        "extraShots": 0,
+        "note": ""
+      },
+      "added_at": "2026-02-20T11:05:44.200Z",
+      "id": "item_4001_z1"
+    },
+    {
+      "order_no": "ORD-1770911223344-099",
+      "product_id": "PrOdUCT0003",
+      "qty": 1,
+      "price": 15,
+      "subtotal": 15,
+      "customizations": {
+        "size": "Medium (Grande)",
+        "temp": "Hot",
+        "sugar": "Normal Sugar",
+        "milk": "Normal Milk",
+        "syrups": [],
+        "sweeteners": [],
+        "caffeine": "Regular",
+        "extraShots": 0,
+        "note": ""
+      },
+      "added_at": "2026-02-20T11:05:44.200Z",
+      "id": "item_4001_z2"
+    },
+    {
+      "order_no": "ORD-1770922334455-100",
+      "product_id": "_O26JHRKKS4",
+      "qty": 1,
+      "price": 100,
+      "subtotal": 100,
+      "customizations": {
+        "size": "Large (Venti)",
+        "temp": "Iced",
+        "sugar": "Normal Sugar",
+        "milk": "Normal Milk",
+        "syrups": [],
+        "sweeteners": [],
+        "caffeine": "Regular",
+        "extraShots": 0,
+        "note": ""
+      },
+      "added_at": "2026-02-20T16:50:12.750Z",
+      "id": "item_4002_w1"
+    },
+    {
+      "order_no": "ORD-1770922334455-100",
+      "product_id": "PrOdUCT0005",
+      "qty": 1,
+      "price": 45,
+      "subtotal": 45,
+      "customizations": {
+        "size": "Large (Venti)",
+        "temp": "Iced",
+        "sugar": "Normal Sugar",
+        "milk": "Normal Milk",
+        "syrups": [],
+        "sweeteners": [],
+        "caffeine": "Regular",
+        "extraShots": 0,
+        "note": ""
+      },
+      "added_at": "2026-02-20T16:50:12.750Z",
+      "id": "item_4002_w2"
     }
   ],
   "customers": [
     {
-      "user_id": "Hj66MtsTYo0",
-      "name": "asal asalan",
-      "joinedAt": "2026-05-15T06:30:40.548Z",
-      "createdAt": "2026-05-15T06:30:40.548Z",
-      "id": "u8N-PwCdz8Y"
+      "user_id": "P6sUP4BQ56k",
+      "name": "Black coffee",
+      "joinedAt": "17/05/2026",
+      "createdAt": "2026-05-17T17:38:21.401Z",
+      "id": "zasj9-2P96c"
     },
     {
-      "user_id": "aVtb_zV05Es",
-      "name": "Arief Budiman",
-      "joinedAt": "2026-05-17T00:22:05.526Z",
-      "createdAt": "2026-05-17T00:22:05.526Z",
-      "id": "jQSm-ymf8Ac"
+      "user_id": "2m3Ix4EUnfs",
+      "name": "wow",
+      "joinedAt": "17/05/2026",
+      "createdAt": "2026-05-17T17:38:54.350Z",
+      "id": "LlO9x-vLRTo"
+    },
+    {
+      "user_id": "l5i8GPJxCNM",
+      "name": "common-css",
+      "joinedAt": "17/05/2026",
+      "createdAt": "2026-05-17T17:40:20.612Z",
+      "id": "uAwa_9a0_sY"
+    },
+    {
+      "user_id": "Zcq1A53_MlQ",
+      "name": "anto",
+      "joinedAt": "17/05/2026",
+      "createdAt": "2026-05-17T17:40:58.575Z",
+      "id": "0644Q3iyaxc"
+    },
+    {
+      "user_id": "8CoBTY1Okec",
+      "name": "dodo",
+      "joinedAt": "17/05/2026",
+      "createdAt": "2026-05-17T17:56:49.387Z",
+      "id": "k_dSc4UlxKw"
+    },
+    {
+      "user_id": "xm4Nh22xdw8",
+      "name": "756",
+      "joinedAt": "17/05/2026",
+      "createdAt": "2026-05-17T18:01:30.529Z",
+      "id": "kRGffczK9C4"
     }
   ],
   "promotions": [
@@ -365,5 +945,8 @@
     }
   ],
   "inventory": [],
+  "attendance": [
+
+  ],
   "$schema": "./node_modules/json-server/schema.json"
 }
